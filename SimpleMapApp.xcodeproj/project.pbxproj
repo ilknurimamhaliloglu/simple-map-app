@@ -16,7 +16,6 @@
 		A4B4C2EE2BE121D3001CEAB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B4C2ED2BE121D3001CEAB0 /* ContentView.swift */; };
 		A4B4C2F02BE121D4001CEAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B4C2EF2BE121D4001CEAB0 /* Assets.xcassets */; };
 		A4B4C2F32BE121D4001CEAB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B4C2F22BE121D4001CEAB0 /* Preview Assets.xcassets */; };
-		A4B4C2F82BE121D4001CEAB0 /* SimpleMapApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4B4C2F62BE121D4001CEAB0 /* SimpleMapApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		A4B4C2ED2BE121D3001CEAB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4B4C2EF2BE121D4001CEAB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4B4C2F22BE121D4001CEAB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A4B4C2F72BE121D4001CEAB0 /* SimpleMapApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleMapApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,16 +61,12 @@
 		A4B4C2EA2BE121D3001CEAB0 /* SimpleMapApp */ = {
 			isa = PBXGroup;
 			children = (
-				A4B4C2F12BE121D4001CEAB0 /* Preview Content */,
 				A4B4C2EB2BE121D3001CEAB0 /* SimpleMapAppApp.swift */,
-				A4B4C2ED2BE121D3001CEAB0 /* ContentView.swift */,
+				A4B59D082BE3B2E300E39D83 /* Views */,
+				A4B59D092BE3B32500E39D83 /* Model */,
+				A4B59D0A2BE3B33700E39D83 /* Resources */,
 				A4B4C2EF2BE121D4001CEAB0 /* Assets.xcassets */,
-				A42D59632BE39EAE000B6E81 /* CircleImage.swift */,
-				A42D59652BE3A02D000B6E81 /* MapView.swift */,
-				A4B4C2F62BE121D4001CEAB0 /* SimpleMapApp.xcdatamodeld */,
-				A42D596B2BE3AA00000B6E81 /* landmarkData.json */,
-				A42D596D2BE3AA1C000B6E81 /* Landmark.swift */,
-				A42D596F2BE3B07A000B6E81 /* ModelData.swift */,
+				A4B4C2F12BE121D4001CEAB0 /* Preview Content */,
 			);
 			path = SimpleMapApp;
 			sourceTree = "<group>";
@@ -83,6 +77,33 @@
 				A4B4C2F22BE121D4001CEAB0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4B59D082BE3B2E300E39D83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A42D59632BE39EAE000B6E81 /* CircleImage.swift */,
+				A4B4C2ED2BE121D3001CEAB0 /* ContentView.swift */,
+				A42D59652BE3A02D000B6E81 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4B59D092BE3B32500E39D83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A42D596D2BE3AA1C000B6E81 /* Landmark.swift */,
+				A42D596F2BE3B07A000B6E81 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4B59D0A2BE3B33700E39D83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A42D596B2BE3AA00000B6E81 /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +178,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B4C2EE2BE121D3001CEAB0 /* ContentView.swift in Sources */,
-				A4B4C2F82BE121D4001CEAB0 /* SimpleMapApp.xcdatamodeld in Sources */,
 				A42D59662BE3A02D000B6E81 /* MapView.swift in Sources */,
 				A4B4C2EC2BE121D3001CEAB0 /* SimpleMapAppApp.swift in Sources */,
 				A42D59642BE39EAE000B6E81 /* CircleImage.swift in Sources */,
@@ -368,19 +388,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A4B4C2F62BE121D4001CEAB0 /* SimpleMapApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A4B4C2F72BE121D4001CEAB0 /* SimpleMapApp.xcdatamodel */,
-			);
-			currentVersion = A4B4C2F72BE121D4001CEAB0 /* SimpleMapApp.xcdatamodel */;
-			path = SimpleMapApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A4B4C2E02BE121D3001CEAB0 /* Project object */;
 }
