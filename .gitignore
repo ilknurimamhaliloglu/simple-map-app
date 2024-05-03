@@ -91,3 +91,4 @@ iOSInjectionProject/
 
 .DS_Store
 /SimpleMapApp.xcodeproj/project.xcworkspace/xcuserdata
+*.xcuserstate
