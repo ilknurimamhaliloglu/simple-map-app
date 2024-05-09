@@ -24,6 +24,9 @@
 		A4E088D02BE90EDB003C9FCF /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E088CF2BE90EDB003C9FCF /* CategoryRow.swift */; };
 		A4E088D22BE911A9003C9FCF /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E088D12BE911A9003C9FCF /* CategoryItem.swift */; };
 		A4E088D52BE9188B003C9FCF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E088D42BE9188B003C9FCF /* PageViewController.swift */; };
+		A4E088D72BEB8EE9003C9FCF /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E088D62BEB8EE9003C9FCF /* FeatureCard.swift */; };
+		A4E088D92BEB912F003C9FCF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E088D82BEB912F003C9FCF /* PageView.swift */; };
+		A4E088DB2BECAA4E003C9FCF /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E088DA2BECAA4E003C9FCF /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		A4E088CF2BE90EDB003C9FCF /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		A4E088D12BE911A9003C9FCF /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		A4E088D42BE9188B003C9FCF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		A4E088D62BEB8EE9003C9FCF /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		A4E088D82BEB912F003C9FCF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		A4E088DA2BECAA4E003C9FCF /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +156,7 @@
 				A42D59632BE39EAE000B6E81 /* CircleImage.swift */,
 				A42D59652BE3A02D000B6E81 /* MapView.swift */,
 				A4B59D112BE4FA4A00E39D83 /* FavoriteButton.swift */,
+				A4E088D62BEB8EE9003C9FCF /* FeatureCard.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -158,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				A4E088D42BE9188B003C9FCF /* PageViewController.swift */,
+				A4E088D82BEB912F003C9FCF /* PageView.swift */,
+				A4E088DA2BECAA4E003C9FCF /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -234,9 +243,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B4C2EE2BE121D3001CEAB0 /* ContentView.swift in Sources */,
+				A4E088D92BEB912F003C9FCF /* PageView.swift in Sources */,
 				A4E088D52BE9188B003C9FCF /* PageViewController.swift in Sources */,
 				A42D59662BE3A02D000B6E81 /* MapView.swift in Sources */,
 				A4B4C2EC2BE121D3001CEAB0 /* SimpleMapAppApp.swift in Sources */,
+				A4E088D72BEB8EE9003C9FCF /* FeatureCard.swift in Sources */,
 				A4B59D122BE4FA4A00E39D83 /* FavoriteButton.swift in Sources */,
 				A44FF29D2BE90AC4009A3C8F /* CategoryHome.swift in Sources */,
 				A4B59D0E2BE42F5A00E39D83 /* LandmarkList.swift in Sources */,
@@ -246,6 +257,7 @@
 				A42D596E2BE3AA1C000B6E81 /* Landmark.swift in Sources */,
 				A4B59D0C2BE3B4DC00E39D83 /* LandmarkRow.swift in Sources */,
 				A4E088D02BE90EDB003C9FCF /* CategoryRow.swift in Sources */,
+				A4E088DB2BECAA4E003C9FCF /* PageControl.swift in Sources */,
 				A42D59702BE3B07A000B6E81 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
